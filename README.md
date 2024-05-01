@@ -32,10 +32,10 @@ Simpson's Rule is another numerical method for approximating integrals. It provi
 
 1. **Interval Division**: Divide the interval of integration into $n$ subintervals of equal width $\Delta x$. $n$ must be even.
 2. **Simpson's Formula**: Apply Simpson's formula to each pair of adjacent subintervals:
-   $$\int_{a}^{b} f(x) \, dx \approx \frac{\Delta x}{3} \left( f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + \ldots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n) \right)$$
-   where $x_0$ to $x_n$ are the endpoints of the subintervals and $f(x_i)$ are the function values at those points.
+   $$\int_{x_k}^{x_{k+1}} f(x) dx \approx \frac{h}{3}(f(x_k)+4f(x_k+h)+f(x_{k+1})) $$ for each subinterval $[x_k,x_{k+1}]$ whith $h = \frac {(x_{k+1}-x_k)}{2}$
 3. **Composite Rule**: Sum the results obtained from each pair of adjacent subintervals and adjust the weights accordingly.
-
+$$\int_{a}^{b} f(x) dx \approx \frac{h}{3} \left( f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + \ldots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n) \right)$$
+   where $x_0$ to $x_n$ are the endpoints of the subintervals, $f(x_i)$ are the function values at those points and $h=\frac{b-a}{n}$.
 ## Comparison
 
 - **Trapezoidal Composite Rule**:
