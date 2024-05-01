@@ -5,14 +5,13 @@ Integrals' approximation using Composite Trapezoidal and Simpson's rules
    - [Trapezoidal Composite Rule](#trapezoidal-composite-rule)
    - [Simpson's Composite Rule](#simpsons-composite-rule)
    - [Comparison](#comparison)
-2. [Function documentation](#function-documentation)
+2. [Function's documentation](#functions-documentation)
    - [mysimp](#mysimp)
    - [mysimpc](#mysimpc)
    - [mysimpcnodi](#mysimpcnodi)
    - [mytrap](#mytrap)
    - [mytrapc](#mytrapc)
    - [BE CAREFUL](#be-careful)
-3. [Examples](#examples)
 
 
 # Theory
@@ -49,7 +48,7 @@ $$\int_{a}^{b} f(x) dx \approx \frac{h}{3} \left( f(x_0) + 4f(x_1) + 2f(x_2) + 4
 
 Both methods are effective for approximating integrals, with Simpson's Rule generally providing more accurate results but at the cost of slightly more computational effort compared to the Trapezoidal Composite Rule.
 
-# Function documentation
+# Function's documentation
 
 ## mysimp
 
