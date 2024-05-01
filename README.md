@@ -133,5 +133,3 @@ Approximation of the integral of `fun(x)` over the interval `[a,b]` using the co
 # BE CAREFUL
 mysimp and mytrap need a preset number of subintervals, insthead mysimpc and mytrapc automatically determine the required number of subintervals in order to meet the tolerance goals
 
-# Examples 
-
