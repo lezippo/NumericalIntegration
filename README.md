@@ -2,16 +2,16 @@
 Integrals' approximation using Composite Trapezoidal and Simpson's rules
 
 1. [Theory](#theory)
-   - [Trapezoidal Composite Rule](#trapezoidal-composite-rule)
-   - [Simpson's Composite Rule](#simpsons-composite-rule)
-   - [Comparison](#comparison)
+- [Trapezoidal Composite Rule](#trapezoidal-composite-rule)
+- [Simpson's Composite Rule](#simpsons-composite-rule)
+- [Comparison](#comparison)
 2. [Function's documentation](#functions-documentation)
-   - [mysimp](#mysimp)
-   - [mysimpc](#mysimpc)
-   - [mysimpcnodi](#mysimpcnodi)
-   - [mytrap](#mytrap)
-   - [mytrapc](#mytrapc)
-   - [BE CAREFUL](#be-careful)
+- [mysimp](#mysimp)
+- [mysimpc](#mysimpc)
+- [mysimpcnodi](#mysimpcnodi)
+- [mytrap](#mytrap)
+- [mytrapc](#mytrapc)
+- [BE CAREFUL](#be-careful)
 
 
 # Theory
